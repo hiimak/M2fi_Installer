@@ -1,0 +1,20 @@
+{
+  "name": "hiimak/m2fi-installer",
+  "description": "CLI Command to install ",
+  "config": {
+    "sort-packages": true
+  },
+  "require": {
+    "magento/framework": "102.0.*"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ]
+  },
+  "dist": {
+    "url": "https://github.com/hiimak/M2fi_Installer.git",
+    "type": "git"
+  },
+  "version": "1.0.0"
+}
