@@ -62,6 +62,7 @@
                     $stmt = str_replace('tablename', $tableName, $querys);
                 }
                 $connection->query($stmt);
+                $output->writeln("Indexes successfully created for M2FI");
             }
         }
     }
